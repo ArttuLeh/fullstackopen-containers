@@ -1,0 +1,12 @@
+artleh@Mac answers % docker run -it ubuntu bash
+Unable to find image 'ubuntu:latest' locally
+latest: Pulling from library/ubuntu
+5fa77813dc56: Pull complete 
+06db5ba23986: Pull complete 
+a9ea53412693: Download complete 
+Digest: sha256:f144425ff09be612d6d9ad965196e9cdc23dae1f42110a8a11a3e9a8198759f7
+Status: Downloaded newer image for ubuntu:latest
+root@43cd177a6c37:/# mkdir -p /usr/src/app
+root@43cd177a6c37:/# touch /usr/src/app/index.js
+root@43cd177a6c37:/usr/src/app# exit
+exit
